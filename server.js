@@ -10,6 +10,7 @@ var app = express(); // defines app
 // View Engine
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs'); //ejs = expressjs
+app.engine('html', require('ejs').renderFile);
 
 app.use(express.static(path.join(__dirname, 'client'))); //inicialize folder for static files - frontend
 
