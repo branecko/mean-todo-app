@@ -1,0 +1,25 @@
+{
+  "name": "mean-todo-app",
+  "version": "1.0.0",
+  "description": "Sample TODO app created with MEAN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/branecko/mean-todo-app.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/branecko/mean-todo-app/issues"
+  },
+  "homepage": "https://github.com/branecko/mean-todo-app#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "mongojs": "^2.4.0"
+  }
+}
