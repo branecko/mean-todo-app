@@ -4,3 +4,4 @@ client/node_modules
 client/typings
 client/**/*.js
 *js.map
+**/bower_components
