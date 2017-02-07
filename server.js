@@ -11,6 +11,8 @@ var app = express(); // defines app
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs'); //ejs = expressjs
 
+app.use(express.static(path.join(__dirname, 'client'))); //inicialize folder for static files - frontend
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
