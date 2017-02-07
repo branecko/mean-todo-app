@@ -1,4 +1,6 @@
 node_modules
 .idea/
-/client/node_modules
-/client/typings
+client/node_modules
+client/typings
+client/**/*.js
+*js.map
