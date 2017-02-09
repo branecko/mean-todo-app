@@ -46,3 +46,7 @@ and in body:
 ```
 - During local development we can start typescript compiler in watchmode `npm run tsc:w`
 - Prepare [template](https://github.com/branecko/mean-todo-app/commit/60d304099fc9840d32e9229b64ab713221f78bc2)
+- (FE) Display todos using our local server api - see [commit](https://github.com/branecko/mean-todo-app/commit/991889d9cd50454044c61ae3dc9bf600ace67517)
+- (FE) Save todo using our local server api - see [commit](https://github.com/branecko/mean-todo-app/commit/77b509e65f650ac5415fbb37e0fa1427b06e4db6)
+- (FE) Update todo using our local server api - see [commit]() (not done yet)
+- (FE) Delete todo using our local server api - see [commit]() (not done yet)
