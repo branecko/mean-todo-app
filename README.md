@@ -18,6 +18,8 @@ ExpressJS, ExpressJS body parser, MLab,
 
 > **views/index.html** - `index.html` is defined here. It starts frontend ng2 app (see `<my-app>Loading...</my-app>` and necessary imports) 
 
+> **.bowerrc** - file needs to be modified to change bower_components downloaded location 
+
 > **server.js** - basic 'server' file that defines expressjs, bodyparser, routes, inicialize frontend(static content) folder and starts server
 
 # Notes during development:
@@ -61,5 +63,5 @@ and in body:
 - Prepare [template](https://github.com/branecko/mean-todo-app/commit/60d304099fc9840d32e9229b64ab713221f78bc2)
 - (FE) Display todos using our local server api - see [commit](https://github.com/branecko/mean-todo-app/commit/991889d9cd50454044c61ae3dc9bf600ace67517)
 - (FE) Save todo using our local server api - see [commit](https://github.com/branecko/mean-todo-app/commit/77b509e65f650ac5415fbb37e0fa1427b06e4db6)
-- (FE) Update todo using our local server api - see [commit]() (not done yet)
-- (FE) Delete todo using our local server api - see [commit]() (not done yet)
+- (FE) Update todo using our local server api - see [commit](https://github.com/branecko/mean-todo-app/commit/6f5adef6b6fde23bcdb61e1ac20c5cb2e3dec523)
+- (FE) Delete todo using our local server api - see [commit](https://github.com/branecko/mean-todo-app/commit/052a06c045296155a3b81b1fb5b8c2e67573263b)
