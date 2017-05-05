@@ -1,13 +1,26 @@
 # MEAN Todos app
 
 This is sample app that use MEAN stack.
+ExpressJS, ExpressJS body parser, MLab, 
 
 **You need to setup mLab db and fill dbusername and pwd in `./routes/todos.js:6` !!**
 
 * start server with `node server`
 * compile frontend with `npm run tsc:w`
 
-# Notes:
+# Structure:
+
+> **client/** -frontend ng2 app using typescript, systemJs 
+
+> **routes/** - routes defined 
+> **routes/index.js** - defined what happens when `<baseURL>/` url was hit
+> **routes/todos.js** - defined what happens when `<baseURL>/api/v1` url was hit and all other API calls such as `GET /todos`, `PUT /todo/:id`,...
+
+> **views/index.html** - `index.html` is defined here. It starts frontend ng2 app (see `<my-app>Loading...</my-app>` and necessary imports) 
+
+> **server.js** - basic 'server' file that defines expressjs, bodyparser, routes, inicialize frontend(static content) folder and starts server
+
+# Notes during development:
 - project based on [expressjs](https://expressjs.com), [nodejs](https://nodejs.org) and angular 2 on frontend
 - express server setup - [commit](https://github.com/branecko/mean-todo-app/commit/5511da39dccb6e15eb7a5c2340d884c6dfe3f263)
 - **mLab (mongo lab)**
